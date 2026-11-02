@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título que aparece na aba do navegador -->
+    <title>Meus sites favoritos</title>
+
+    <!-- Estilização da página -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #222;
+            margin-bottom: 30px;
+        }
+
+        /* Organização dos sites em cartões */
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        /* Aparência de cada cartão */
+        .site {
+            background-color: white;
+            width: 220px;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+        }
+
+        /* Nome dos sites */
+        h1 {
+            font-size: 22px;
+            color: #333;
+        }
+
+        /* Tamanho das imagens */
+        img {
+            width: 180px;
+            height: 130px;
+            object-fit: contain;
+            margin: 10px;
+        }
+
+        /* Aparência dos links */
+        a {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #ff6600;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Título principal da página -->
+    <h2>Meus sites favoritos: João Gabriel Naldi</h2>
+
+    <!-- Área que contém os cinco sites -->
+    <div class="container">
+
+        <!-- Site 1: Instagram -->
+        <div class="site">
+            <h1>Instagram</h1>
+            <img src="https://cdn.simpleicons.org/instagram/E4405F"
+                alt="Logo do Instagram">
+            <br>
+            <a href="https://www.instagram.com/" target="_blank">
+                Acessar Instagram
+            </a>
+        </div>
+
+        <!-- Site 2: YouTube -->
+        <div class="site">
+            <h1>YouTube</h1>
+            <img src="https://cdn.simpleicons.org/youtube/FF0000"
+                alt="Logo do YouTube">
+            <br>
+            <a href="https://www.youtube.com/" target="_blank">
+                Acessar YouTube
+            </a>
+        </div>
+
+        <!-- Site 3: Google -->
+        <div class="site">
+            <h1>Google</h1>
+            <img src="https://cdn.simpleicons.org/google/4285F4"
+                alt="Logo do Google">
+            <br>
+            <a href="https://www.google.com/" target="_blank">
+                Acessar Google
+            </a>
+        </div>
+
+        <!-- Site 4: UOL -->
+        <div class="site">
+            <h1>UOL</h1>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/UOL_logo.svg/512px-UOL_logo.svg.png"
+                alt="Logo do UOL">
+            <br>
+            <a href="https://www.uol.com.br/" target="_blank">
+                Acessar UOL
+            </a>
+        </div>
+
+        <!-- Site 5: Facebook -->
+        <div class="site">
+            <h1>Facebook</h1>
+            <img src="https://cdn.simpleicons.org/facebook/0866FF"
+                alt="Logo do Facebook">
+            <br>
+            <a href="https://www.facebook.com/" target="_blank">
+                Acessar Facebook
+            </a>
+        </div>
+
+    </div>
+
+</body>
+</html>
